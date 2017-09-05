@@ -1,14 +1,20 @@
-h1 {
+h1, h2 {
   font-family: 'Raleway', sans-serif;
   font-size: 10vw;
   text-align: center;
-  padding: 30px;
+  padding: 20px;
+  margin-bottom: 0;
   padding-top: 60px;
   letter-spacing: 10px;
   color: #334;
 }
 
-
+h2 {
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
 .line2 {
 
   background: #334;
@@ -49,4 +55,19 @@ p {
 }
 p:hover {
     transform: translate(0, 20px);
+}
+.topnav {
+  display: flex;
+  justify-content: flex-start;
+}
+ul, li {
+  display: inline;
+}
+
+.navChild {
+  color: #334;
+}
+
+a:active {
+  color: red;
 }
