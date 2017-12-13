@@ -71,3 +71,44 @@ a:active {
   background: linear-gradient(135deg, rgba(131,128,183,1) 0%, rgba(59,204,186,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8380b7', endColorstr='#3bccba', GradientType=1 );
 }
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  padding: 20px;
+  text-align: left;
+}
+.info h1 {
+  display: block;
+}
+.sec {
+  max-width: 400px;
+  padding: 20px;
+  display: inline-block;
+}
+
+.con {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  display: inline
+}
+
+.con h1 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.title h2 {
+  display: inline-block;
+}
