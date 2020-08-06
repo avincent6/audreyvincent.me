@@ -1,6 +1,7 @@
 body, p, a {
   margin: 0 auto;
   font-family: 'Poppins', sans-serif;
+  box-sizing:border-box;
 }
 h1, h2 {
   font-family: 'Poppins', sans-serif;
@@ -18,31 +19,35 @@ h2 {
   color: #3BCCBA;
 }
 .aspot {
-  height: 100vh;
   display: flex;
   justify-content: center;
+  flex-wrap: nowrap;
   align-items: center;
   padding: 20px;
 }
 .header {
+  flex-grow: 4;
   padding: 20px;
-  max-width: 40%;
+  max-width: 60%;
   display: inline-block;
   font-family: 'Poppinis', sans-serif;
   text-align: left;
 }
 .pic {
+  flex-grow: 1;
   margin: 20px;
   display: inline-block;
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  height: 450px;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
   padding: 20px;
 }
+.links {
+}
 .audrey2 {
-  background-image: url('../audrey3.jpg');
+  background-image: url('../audrey.jpg');
 }
 
 a {
@@ -77,6 +82,7 @@ a:active {
 
 .info {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: left;
   padding: 20px;
@@ -106,8 +112,7 @@ a:active {
 .title {
   text-align: center;
   margin: 0 auto;
-  display: inline-block;
-  width: 100%;
+  display: block;
   padding: 20px;
   padding-bottom: 50px;
 }
