@@ -18,7 +18,7 @@ h1 {
 h2 {
   font-size: 20px;
   font-weight: lighter;
-  color: #3BCCBA;
+  color: #06847b;
 }
 .aspot {
   display: flex;
@@ -53,9 +53,10 @@ h2 {
 }
 
 a {
-  color: #3BCCBA;
+  color: #06847b;
   text-decoration: none;
   padding-right: 20px;
+  text-decoration: underline;
 }
 
 .header p a {
