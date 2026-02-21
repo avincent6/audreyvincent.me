@@ -123,7 +123,12 @@ a:active {
 .title h2 {
   display: inline-block;
 }
-
+img {
+  max-height: 75px;
+  max-width: 150px;
+  height: auto;
+  display: block;
+}
 .logo {
   /* not sure why these styles are not on my gh-pages site*/
   padding: 10px;
