@@ -125,6 +125,7 @@ a:active {
 }
 
 .logo {
+  /* not sure why these styles are not on my gh-pages site*/
   padding: 10px;
   max-height: 75px;
   max-width: 150px;
