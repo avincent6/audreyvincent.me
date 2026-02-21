@@ -1,88 +1,136 @@
-<!DOCTYPE html
-<html lang="en">
+<!DOCTYPE html <html lang="en">
+
 <head>
   <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
-    <title>Audrey</title>
-    <link href="css/styles.css" rel="stylesheet">
-    <script>
-      !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init Ce js Ls Te Fs Ds capture Ye calculateEventProperties Us register register_once register_for_session unregister unregister_for_session Ws getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey canRenderSurveyAsync identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty Bs zs createPersonProfile Hs Ms Gs opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing Ns debug L qs getPageViewId captureTraceFeedback captureTraceMetric".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
-      posthog.init('phc_t8NFM91g4Q8nBTUSz9Mr7D3llLzOYmFFzoYzyM3DnhM', {
-          api_host: 'https://us.i.posthog.com',
-          defaults: '2025-05-24',
-          person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
-      })
-    </script>
- </head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+  <title>Audrey</title>
+  <link href="css/styles.css" rel="stylesheet">
+  <script>
+    !function (t, e) { var o, n, p, r; e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) { function g(t, e) { var o = e.split("."); 2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } } (p = t.createElement("script")).type = "text/javascript", p.crossOrigin = "anonymous", p.async = !0, p.src = s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); var u = e; for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) { var e = "posthog"; return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e }, u.people.toString = function () { return u.toString(1) + ".people (stub)" }, o = "init Ce js Ls Te Fs Ds capture Ye calculateEventProperties Us register register_once register_for_session unregister unregister_for_session Ws getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey canRenderSurveyAsync identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty Bs zs createPersonProfile Hs Ms Gs opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing Ns debug L qs getPageViewId captureTraceFeedback captureTraceMetric".split(" "), n = 0; n < o.length; n++)g(u, o[n]); e._i.push([i, s, a]) }, e.__SV = 1) }(document, window.posthog || []);
+    posthog.init('phc_t8NFM91g4Q8nBTUSz9Mr7D3llLzOYmFFzoYzyM3DnhM', {
+      api_host: 'https://us.i.posthog.com',
+      defaults: '2025-05-24',
+      person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
+    })
+  </script>
+</head>
 
- <body>
-   <header>
-     <div class='aspot'>
-       <div class="pic audrey2"></div>
-       <div class="header">
-         <h2>Product & Design</h2>
-         <h1>Audrey Vincent</h1>
-         <br>
-         <p>
-           Hi, I'm Audrey 👋
-         </p>
-         <br>
-         <p>
-           I'm a product manager with 6 years of experience leading software teams and launching products backed by user research. 
-         </p>
-         <br>
-         <p>
-          Currently, I'm building data products backed with AI for Fortune 500 Companies verifiying their advertising performance at <a href="https://integralads.com/">IAS - Integral Ad Science</a>.
-         </p>
-         <br>
-         <p>
-          Previously, I wore many of hats with <a href="https://amerlightpower.com/">Amerlight Power</a>, building commercial-scale renewable energy storage systems.
-         </p>
-         <br>
-         <p>
-          I have scaled B2C products from 0 to millions at <a href="https://www.ancestry.com/"></a>Ancestry</a> and have held B2B data centric roles in climate tech, biotech, edtech, and advertising. I'm passionate about renewable energy and scaling electrification to keep our energy industry sustainable.
-         </p>
-         <br>
-         <p>
-           If you'd like to follow along my product journey, check out the product launches below 👇
-         </p>
-         <br>
-         <div class="links">
-           <a href="./audrey-resume.pdf">Resume</a><a href="https://github.com/avincent6">Github</a><a href="https://gitlab.com/avincent6/audrey-vincent">README.md</a><a href="mailto:audrey@audreyvincent.me">Contact</a><a href="https://www.linkedin.com/in/audreymariev/">LinkedIn</a>
-         </div>
-       </div>
-     </div>
-     <div class='con'>
-       <h1>Product Launches</h1>
-       <div class='info'>
+<body>
+  <header>
+    <div class='aspot'>
+      <div class="pic audrey2"></div>
+      <div class="header">
+        <h2>Product & Design</h2>
+        <h1>Audrey Vincent</h1>
+        <br>
+        <p>
+          Hi, I'm Audrey 👋
+        </p>
+        <br>
+        <p>
+          I'm a product manager with 6 years of experience leading software teams and launching products backed by user
+          research.
+        </p>
+        <br>
+        <p>
+          Currently, I'm building data products for Fortune 500 brands verifying their advertising
+          performance at <a href="https://integralads.com/">IAS - Integral Ad Science</a>.
+        </p>
+        <br>
+        <p>
+          Previously, I wore many of hats with <a href="https://amerlightpower.com/">Amerlight Power</a>, building
+          commercial-scale renewable energy storage systems.
+        </p>
+        <br>
+        <p>
+          I have scaled B2C products from 0 to millions at <a href="https://www.ancestry.com/">Ancestry</a> and have
+          held B2B data centric roles in climate tech, biotech, edtech, and advertising. I'm passionate about renewable
+          energy and scaling electrification to keep our energy industry sustainable.
+        </p>
+        <br>
+        <p>
+          If you'd like to follow along my product journey, check out the product launches below 👇
+        </p>
+        <br>
+        <div class="links">
+          <a href="./audrey-resume.pdf">Resume</a><a href="https://github.com/avincent6">Github</a><a
+            href="https://gitlab.com/avincent6/audrey-vincent">README.md</a><a
+            href="mailto:audrey@audreyvincent.me">Contact</a><a
+            href="https://www.linkedin.com/in/audreymariev/">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <div class="con">
+      <h1>Companies</h1>
+      <div class="logo-grid">
+        <a href="https://integralads.com/" target="_blank">
+          <img class="logo" src="logos/ias.jpg" alt="IAS - Integral Ad Science">
+        </a>
+        <a href="https://amerlightpower.com/" target="_blank">
+          <img class="logo" src="logos/amerlight-power.png" alt="Amerlight Power">
+        </a>
+        <a href="https://www.guildeducation.com/" target="_blank">
+          <img class="logo" src="logos/guild.jpg" alt="Guild Education">
+        </a>
+        <a href="https://www.ancestry.com/" target="_blank">
+          <img class="logo" src="logos/ancestry.jpg" alt="Ancestry">
+        </a>
+      </div>
+    </div>
+    <div class='con'>
+      <h1>Product Launches</h1>
+      <div class='info'>
         <div class="sec">
           <h2><a href="https://disney.guildeducation.com/partner/">Celebrate DisneyAspire Graduates | 2023</a></h2>
-          <p>Led company wide data quality efforts to recognize and promote student graduates in Guild's Education Benefit program, Disney Aspire.</p>
-        <a href="https://disney.guildeducation.com/partner/">Disney Aspire</a>
+          <p>Led company wide data quality efforts to recognize and promote student graduates in Guild's Education
+            Benefit program, Disney Aspire.</p>
+          <a href="https://disney.guildeducation.com/partner/">Disney Aspire</a>
         </div>
-         <div class="sec">
-           <h2><a href="https://www.businesswire.com/news/home/20200803005219/en/Ancestry%C2%AE-Launches-AncestryHealth%C2%AE-Powered-Generation-Sequencing-NGS">AncestryHealth Launch | 2020</a></h2>
-           <p>Discover your risk for developing conditions across cancer, carrier, heart and blood, and connective tissue disorder genes. Includes access to genetic counselors partnering with you throughout your health journey.</p>
-          <a href="https://www.ancestry.com/corporate/newsroom/press-releases/introducing-ancestryhealth-actionable-health-insights-you-and-your-family">AncestryHealth</a>
-         </div>
-         <div class="sec">
-           <h2><a href="https://www.ancestry.com/corporate/blog/ancestry-launches-a-new-take-on-genetic-traits">AncestryDNA Traits Launch | 2018</a></h2>
-           <p>Discover physical, sensory, and vitamin traits all determined from your genetic makeup. Compare and Explore with AncestryDNA Matches and members to learn what you have in common, or what makes you uniquely you.</p>
+        <div class="sec">
+          <h2><a
+              href="https://www.businesswire.com/news/home/20200803005219/en/Ancestry%C2%AE-Launches-AncestryHealth%C2%AE-Powered-Generation-Sequencing-NGS">AncestryHealth
+              Launch | 2020</a></h2>
+          <p>Discover your risk for developing conditions across cancer, carrier, heart and blood, and connective tissue
+            disorder genes. Includes access to genetic counselors partnering with you throughout your health journey.
+          </p>
+          <a
+            href="https://www.ancestry.com/corporate/newsroom/press-releases/introducing-ancestryhealth-actionable-health-insights-you-and-your-family">AncestryHealth</a>
+        </div>
+        <div class="sec">
+          <h2><a
+              href="https://www.ancestry.com/corporate/blog/ancestry-launches-a-new-take-on-genetic-traits">AncestryDNA
+              Traits Launch | 2018</a></h2>
+          <p>Discover physical, sensory, and vitamin traits all determined from your genetic makeup. Compare and Explore
+            with AncestryDNA Matches and members to learn what you have in common, or what makes you uniquely you.</p>
           <a href="https://support.ancestry.com/s/article/AncestryDNA-Traits?language=en_US">AncestryDNA Traits</a>
-         </div>
-         <div class="sec">
-          <h2><a href="https://www.purdue.edu/newsroom/archive/releases/2017/Q2/creators-of-augmented-reality-classroom-technology-win-fourth-annual-boiler-business-competition.html">The Anvil | 2017 - 2018</a></h2>
-           <p>
-            Directed a non-profit that offered co-working spaces and programs for the community to start small businesses.
+        </div>
+        <div class="sec">
+          <h2><a
+              href="https://www.purdue.edu/newsroom/archive/releases/2017/Q2/creators-of-augmented-reality-classroom-technology-win-fourth-annual-boiler-business-competition.html">The
+              Anvil | 2017 - 2018</a></h2>
+          <p>
+            Directed a non-profit that offered co-working spaces and programs for the community to start small
+            businesses.
           </p>
           <a href="https://linktr.ee/theanvilstartups">The Anvil</a>
-         </div>
-       </div>
-   </header>
- </body>
- <script src="js/main.js"></script>
- </body>
+        </div>
+      </div>
+      <div class="con">
+        <h1>Education</h1>
+        <div class="logo-grid small-con">
+          <a href="https://www.purdue.edu/" target="_blank">
+            <img class="logo" src="logos/purdue.png" alt="Purdue University">
+          </a>
+          <a href="https://www.kth.se/en" target="_blank">
+            <img class="logo" src="logos/kth.png" alt="KTH Sweden">
+          </a>
+        </div>
+      </div>
+  </header>
+</body>
+<script src="js/main.js"></script>
+
 </html>

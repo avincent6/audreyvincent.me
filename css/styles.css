@@ -124,3 +124,24 @@ a:active {
   display: inline-block;
 }
 
+.logo {
+  padding: 10px;
+  max-height: 75px;
+  max-width: 150px;
+}
+
+.logo-grid {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;   /* horizontal centering */
+  align-items: center;       /* vertical alignment */
+  gap: 10px;
+  text-align: center;
+  width: 100%; 
+}
+
+.small-con {
+  justify-content: center;  /* 👈 keeps 2 logos together */
+  align-items: center;
+}
